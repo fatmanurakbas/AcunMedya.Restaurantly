@@ -1,0 +1,46 @@
+﻿@model AcunMedya.Restaurantly.Entities.Galery
+
+@{
+    ViewBag.Title = "GaleryEdit";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="row page-titles mx-0">
+    <div class="col p-md-0">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Anasayfa</a></li>
+            <li class="breadcrumb-item active"><a href="javascript:void(0)">Galeri Güncelleme</a></li>
+        </ol>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Galeri Güncelleme Formu</h4>
+                <div class="basic-form">
+                    @using (Html.BeginForm("GaleryEdit", "Galery", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        @Html.HiddenFor(x => x.GaleryId)
+
+                        <div class="form-group">
+                            <label>Başlık</label>
+                            @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+
+                            <label>Mevcut Resim</label>
+                            <div>
+                                <img src="@Model.ImageUrl" alt="Galeri Resmi" style="max-width:200px;" />
+                            </div>
+
+                            <label>Yeni Resim Yükle</label>
+                            <input type="file" name="ImageFile" class="form-control" />
+                        </div>
+
+                        <button type="submit" class="btn btn-dark gradient-2">Galeri Güncelle</button>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

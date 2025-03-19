@@ -1,0 +1,50 @@
+﻿@model List<AcunMedya.Restaurantly.Entities.Reservation>
+
+<section id="book-a-table" class="book-a-table">
+    <div class="container" data-aos="fade-up">
+        <div class="section-title">            
+            <p>Rezervasyon</p>
+        </div>
+
+        <form action="ReservationAdd" method="post" role="form" class="php-email-form">
+
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 form-group">
+                    <input type="text" name="Name" class="form-control" placeholder="İsim-Soyisim" required>
+                </div>
+                <div class="col-lg-4 col-md-6 form-group">
+                    <input type="email" name="Email" class="form-control" placeholder=" Email" required>
+                </div>
+                <div class="col-lg-4 col-md-6 form-group">
+                    <input type="text" name="Phone" class="form-control" placeholder="Telefon" required>
+                </div>
+                <div class="col-lg-4 col-md-6 form-group">
+                    <input type="date" name="ReservationDate" class="form-control" required>
+                </div>
+                <div class="col-lg-4 col-md-6 form-group">
+                    <input type="text" name="Time" class="form-control" placeholder="Zaman" required>
+                </div>
+                <div class="col-lg-4 col-md-6 form-group">
+                    <input type="number" name="GuestCount" class="form-control" placeholder="Kişi Sayısı" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea name="Description" class="form-control" placeholder="Açıklama"></textarea>
+            </div>
+            <div class="my-3">
+                <div class="loading"></div>
+                <div class="error-message"></div>
+                <div class="sent-message">Rezervasyonunuz Alındı. Teşekkür Ederiz!</div>
+            </div>
+            <div class="text-center">
+                <button type="submit">Rezervasyonu Gönder</button>
+            </div>
+        </form>
+
+    </div>
+</section>
+
+
+
+

@@ -1,0 +1,45 @@
+﻿@model List<AcunMedya.Restaurantly.Entities.Special>
+
+<section id="specials" class="specials">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>Spesiyaller</h2>
+            <p>Spesiyallere Göz atın</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-3">
+                <ul class="nav nav-tabs flex-column">
+                    @for (int i = 0; i < Model.Count; i++)
+                    {
+                        var item = Model[i];
+                        <li class="nav-item">
+                            <a class="nav-link @(i == 0 ? "active" : "")" data-bs-toggle="tab" href="#tab-@i">@item.Title</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+            <div class="col-lg-9 mt-4 mt-lg-0">
+                <div class="tab-content">
+                    @for (int i = 0; i < Model.Count; i++)
+                    {
+                        var item = Model[i];
+                        <div class="tab-pane fade @(i == 0 ? "show active" : "")" id="tab-@i">
+                            <div class="row">
+                                <div class="col-lg-8 details order-2 order-lg-1">
+                                    <h3>@item.ShortDescription</h3>
+                                    <p class="fst-italic">@item.FullDescription</p>
+                                </div>
+                                <div class="col-lg-4 text-center order-1 order-lg-2">
+                                    <img src="@item.ImageUrl" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>

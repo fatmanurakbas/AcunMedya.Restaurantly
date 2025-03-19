@@ -1,0 +1,44 @@
+﻿@model AcunMedya.Restaurantly.Entities.Chef
+@{
+    ViewBag.Title = "ChefCreate";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+
+
+
+<div class="row page-titles mx-0">
+    <div class="col p-md-0">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Anasayfa</a></li>
+            <li class="breadcrumb-item active"><a href="javascript:void(0)">Şef Ekleme</a></li>
+        </ol>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Şef Ekleme Formu</h4>
+                <div class="basic-form">
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label>Şef İsim-Soyisim</label>
+                            @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+
+                            <label>Şef Alanı</label>
+                            @Html.TextBoxFor(x => x.title, new { @class = "form-control" })
+
+                            <label>Şef Fotoğrafı</label>
+                            <input type="file" name="ImageFile" class="form-control" required />
+
+                        </div>
+
+                        <button type="submit" class="btn btn-dark gradient-2">Şef Ekle</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,76 @@
+﻿@model List<AcunMedya.Restaurantly.Entities.Chef>
+@{
+    ViewBag.Title = "ChefList";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+
+<div class="row page-titles mx-0">
+    <div class="col p-md-0">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="javascript:void(0)">Dashboard</a></li>
+            <li class="breadcrumb-item active"><a href="javascript:void(0)">Anasayfa</a></li>
+        </ol>
+    </div>
+</div>
+<!-- row -->
+
+<div class="container-fluid">
+    <form method="get">
+        <div class=" form-group">
+            <input type="text" name="searcText" placeholder="Aranacak kelime" class="form-control" />
+            <br />
+            <button class="btn btn-dark gradient-9">Ara</button>
+        </div>
+    </form>
+    <div class="row">
+
+        <!-- /# column -->
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-title">
+                        <h4>Şef Listesi</h4>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Şef İsim-Soyisim</th>
+                                    <th>Şef Alanı</th>
+                                    <th>Şef Resmi</th>
+                                    <th>Sil</th>
+                                    <th>Güncelle</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <th>@item.ChefId</th>
+                                        <td>@item.Name</td>
+                                        <th>@item.title</th>
+                                        <td><img src="@item.ImageUrl" style="widht:100px; height:100px" /></td>
+
+
+                                        <td><a href="/Chef/ChefDelete/@item.ChefId" class="btn btn-danger "><i class="fa fa-close color-muted m-r-5"></i>  Sil</a></td>
+                                        <td><a href="/Chef/ChefEdit/@item.ChefId" class="btn btn-info gradient-2"><i class="fa fa-edit color-muted m-r-5"></i>  Güncelle</a></td>
+
+                                    </tr>
+                                }
+
+
+                            </tbody>
+                        </table>
+                        <a href="/Chef/ChefCreate" class="btn btn-info">Şef Ekle</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /# column -->
+
+    </div>
+</div>
+<!-- #/ container -->
