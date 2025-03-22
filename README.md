@@ -7,13 +7,10 @@ Restaurantly, restoranların menülerini sergileyebileceği, hizmetlerini tanıt
 
 - Menü öğelerini, hizmetleri, etkinlikleri ve restoran bilgilerini yönetme
 - Rezervasyon ve iletişim taleplerini takip etme
-
--Kullanıcı erişim yetkilerini belirleme
+- Kullanıcı erişim yetkilerini belirleme
 
 🍽️ **Restoran Sitesi**
 - Restoran menüsünü ve sunulan hizmetleri görüntüleme
-
 - Online rezervasyon yapma ve restoran hakkında detaylı bilgi edinme
-
 - Şık ve modern bir arayüz ile kullanıcı dostu deneyim
 
