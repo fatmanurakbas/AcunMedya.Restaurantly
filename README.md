@@ -29,7 +29,7 @@ Restaurantly, restoranların menülerini sergileyebileceği, hizmetlerini tanıt
 - JavaScript & jQuery - Dinamik bileşenler
 - LINQ - Veritabanı sorgulama
 
-##📸 Projeye Genel Bakış
+## 📸Projeye Genel Bakış
 
 **Restoran Ana Sayfası**
 ![Anasayfa](https://github.com/user-attachments/assets/a9a2982d-6c4c-450a-9b90-6fd279c1e766)
