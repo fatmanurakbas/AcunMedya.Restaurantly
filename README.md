@@ -9,7 +9,7 @@ Restaurantly, restoranların menülerini sergileyebileceği, hizmetlerini tanıt
 - Rezervasyon ve iletişim taleplerini takip etme
 - Kullanıcı erişim yetkilerini belirleme
 
-🍽️ **Restoran Sitesi**
+🌐 **Restoran Sitesi**
 - Restoran menüsünü ve sunulan hizmetleri görüntüleme
 - Online rezervasyon yapma ve restoran hakkında detaylı bilgi edinme
 - Şık ve modern bir arayüz ile kullanıcı dostu deneyim
@@ -23,32 +23,32 @@ Restaurantly, restoranların menülerini sergileyebileceği, hizmetlerini tanıt
 
 ## 🛠️Teknolojik Altyapı
 **⚙️ Backend Teknolojileri**
-- 🖥️ ASP.NET MVC – Model-View-Controller (MVC) mimarisi ile modüler ve ölçeklenebilir web uygulamaları geliştirme.
-- 📦 Entity Framework (Code First & Db First) – Veritabanı yönetimi için ORM (Object-Relational Mapping) kullanımı, hem mevcut veritabanı üzerinden model oluşturma (Db First) hem de koddan veritabanı oluşturma (Code First) desteği.
-- 🔄 CRUD İşlemleri – Veritabanında Create (Ekleme), Read (Okuma), Update (Güncelleme) ve Delete (Silme) işlemlerinin yönetilmesi.
-- 📊 LINQ (Language Integrated Query) – SQL sorgularını C# kodu içerisinde yazmayı sağlayan güçlü ve esnek sorgulama dili.
+- ASP.NET MVC – Model-View-Controller (MVC) mimarisi ile modüler ve ölçeklenebilir web uygulamaları geliştirme.
+- Entity Framework (Code First & Db First) – Veritabanı yönetimi için ORM (Object-Relational Mapping) kullanımı, hem mevcut veritabanı üzerinden model oluşturma (Db First) hem de koddan veritabanı oluşturma (Code First) desteği.
+- CRUD İşlemleri – Veritabanında Create (Ekleme), Read (Okuma), Update (Güncelleme) ve Delete (Silme) işlemlerinin yönetilmesi.
+- LINQ (Language Integrated Query) – SQL sorgularını C# kodu içerisinde yazmayı sağlayan güçlü ve esnek sorgulama dili.
 
 **💾 Veritabanı Yönetimi**
-- 🛢️ Microsoft SQL Server – Güvenli, ölçeklenebilir ve yüksek performanslı ilişkisel veritabanı yönetim sistemi.
-- 🔍 Stored Procedures & Views – Veritabanı işlemlerini optimize etmek ve performansı artırmak için önceden tanımlı sorguların kullanımı.
-- 🏷️ Session & Cookie Yönetimi – Kullanıcı oturumlarının ve tercih bilgilerinin güvenli bir şekilde saklanması.
+- Microsoft SQL Server – Güvenli, ölçeklenebilir ve yüksek performanslı ilişkisel veritabanı yönetim sistemi.
+- Stored Procedures & Views – Veritabanı işlemlerini optimize etmek ve performansı artırmak için önceden tanımlı sorguların kullanımı.
+- Session & Cookie Yönetimi – Kullanıcı oturumlarının ve tercih bilgilerinin güvenli bir şekilde saklanması.
 
 **🎨 Frontend Teknolojileri**
-- 🌐 HTML5 & CSS3 – Kullanıcı dostu ve modern web tasarımları oluşturma.
-- 🎨 Bootstrap – Duyarlı (responsive) ve mobil uyumlu tasarımlar için popüler bir CSS framework’ü.
-- ⚡ JavaScript & jQuery – Dinamik bileşenler ve etkileşimli kullanıcı deneyimleri oluşturma.
-- 🔄 AJAX & Fetch API – Sayfa yeniden yüklenmeden veri alışverişi yapmak için asenkron işlemler.
-- 🛠️ Partial View Kullanımı – Kod tekrarını azaltmak ve bileşen bazlı sayfa yapısı oluşturmak için kullanılan modüler yapı.
+- HTML5 & CSS3 – Kullanıcı dostu ve modern web tasarımları oluşturma.
+- Bootstrap – Duyarlı (responsive) ve mobil uyumlu tasarımlar için popüler bir CSS framework’ü.
+- JavaScript & jQuery – Dinamik bileşenler ve etkileşimli kullanıcı deneyimleri oluşturma.
+- AJAX & Fetch API – Sayfa yeniden yüklenmeden veri alışverişi yapmak için asenkron işlemler.
+- Partial View Kullanımı – Kod tekrarını azaltmak ve bileşen bazlı sayfa yapısı oluşturmak için kullanılan modüler yapı.
 
 **📑 Layout & Yapılandırma**
-- 📌 Razor View Engine – Dinamik HTML sayfaları oluşturmak için kullanılan ASP.NET teknolojisi.
-- 🏗️ Layout ve Master Page Kullanımı – Sayfa düzenini yönetmek ve yeniden kullanılabilir şablonlar oluşturmak.
-- 🔧 Custom Error Pages – 404 ve diğer hata sayfaları için özelleştirilmiş yönlendirme ve hata yönetimi.
+- Razor View Engine – Dinamik HTML sayfaları oluşturmak için kullanılan ASP.NET teknolojisi.
+- Layout ve Master Page Kullanımı – Sayfa düzenini yönetmek ve yeniden kullanılabilir şablonlar oluşturmak.
+- Custom Error Pages – 404 ve diğer hata sayfaları için özelleştirilmiş yönlendirme ve hata yönetimi.
 
 **🔒 Güvenlik & Yetkilendirme**
-- 🔑 Kimlik Doğrulama & Yetkilendirme – Kullanıcı giriş işlemleri ve admin paneline özel erişim kontrolü.
-- 🚀 Role-Based Authorization – Kullanıcı rollerine göre yetkilendirme ve sayfa erişim kısıtlamaları.
-- 🛡️ CSRF & XSS Koruması – Web uygulamasını güvenlik tehditlerine karşı korumak için alınan önlemler.
+- Kimlik Doğrulama & Yetkilendirme – Kullanıcı giriş işlemleri ve admin paneline özel erişim kontrolü.
+- Role-Based Authorization – Kullanıcı rollerine göre yetkilendirme ve sayfa erişim kısıtlamaları.
+- CSRF & XSS Koruması – Web uygulamasını güvenlik tehditlerine karşı korumak için alınan önlemler.
 
 ## 📸Projeye Genel Bakış
 
@@ -148,7 +148,4 @@ Bu projeyle ilgili herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen fa
 ## 🎉Teşekkür
 Bu projeyi geliştirirken sağladıkları değerli bilgi, rehberlik ve destekleri için Buse Nur Demirbaş ve Murat Yücedağ’a çok teşekkür ederim. 
 Ayrıca, projeye emeği geçen tüm ekip arkadaşlarıma ve geri bildirimleriyle süreci iyileştiren herkese teşekkür ederim. Gelecekte birlikte daha birçok başarılı projeye imza atmayı diliyorum. 🚀🙏
-
-
-
 
