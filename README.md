@@ -6,8 +6,6 @@ Restaurantly, restoranların menülerini sergileyebileceği, hizmetlerini tanıt
 🎛️ **Admin Paneli**
 
 -Menü öğelerini, hizmetleri, etkinlikleri ve restoran bilgilerini yönetme
-
 -Rezervasyon ve iletişim taleplerini takip etme
-
 -Kullanıcı erişim yetkilerini belirleme
 
