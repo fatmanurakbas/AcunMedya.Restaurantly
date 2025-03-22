@@ -7,13 +7,11 @@ using System.Web;
 using System.Web.Mvc;
 
 namespace AcunMedya.Restaurantly.Controllers
-    
 {
     [Authorize]
     public class ReservationController : Controller
     {
         RestaurantlyContext Db = new RestaurantlyContext();
-        // GET: Category
 
         public ActionResult ReservationList(string searcText)
         {
@@ -27,11 +25,13 @@ namespace AcunMedya.Restaurantly.Controllers
             var value = Db.Reservations.ToList();
             return View(value);
         }
+
         [HttpGet]
         public ActionResult ReservationCreate()
         {
             return View();
         }
+
         [HttpPost]
         public ActionResult ReservationCreate(Reservation model)
         {
@@ -51,27 +51,44 @@ namespace AcunMedya.Restaurantly.Controllers
         public ActionResult ReservationEdit(Reservation model)
         {
             var values = Db.Reservations.Find(model.ReservationId);
-            values.Name = model.Name;
-            values.Email = model.Email;
-            values.Phone = model.Phone;
-            values.Description = model.Description;
-            values.ReservationDate = model.ReservationDate;
-            values.Time = model.Time;
-            values.GuestCount = model.GuestCount;
-            values.ReservationStatus = model.ReservationStatus;
+            if (values != null)
+            {
+                values.Name = model.Name;
+                values.Email = model.Email;
+                values.Phone = model.Phone;
+                values.Description = model.Description;
+                values.ReservationDate = model.ReservationDate;
+                values.Time = model.Time;
+                values.GuestCount = model.GuestCount;
+                values.ReservationStatus = model.ReservationStatus;
 
-            
-            Db.SaveChanges();
+                Db.SaveChanges();
+            }
             return RedirectToAction("ReservationList");
         }
 
         public ActionResult ReservationDelete(int id)
         {
             var value = Db.Reservations.Find(id);
-            Db.Reservations.Remove(value);
-            Db.SaveChanges();
+            if (value != null)
+            {
+                Db.Reservations.Remove(value);
+                Db.SaveChanges();
+            }
             return RedirectToAction("ReservationList");
         }
 
+        // **Yeni Metot: Rezervasyon Durumunu Güncelle**
+        [HttpPost]
+        public ActionResult UpdateStatus(int reservationId, string status)
+        {
+            var reservation = Db.Reservations.Find(reservationId);
+            if (reservation != null)
+            {
+                reservation.ReservationStatus = status;
+                Db.SaveChanges();
+            }
+            return RedirectToAction("ReservationList");
+        }
     }
 }

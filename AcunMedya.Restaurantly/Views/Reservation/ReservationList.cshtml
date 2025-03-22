@@ -62,18 +62,40 @@
                                         <td>@item.ReservationDate</td>
                                         <th>@item.Time</th>
                                         <td>@item.GuestCount</td>
-                                        <td>@item.ReservationStatus</td>
 
+                                        <!-- Rezervasyon Durumu Seçim Kutusu -->
+                                        <td>
+                                            <form method="post" action="/Reservation/UpdateStatus">
+                                                <input type="hidden" name="reservationId" value="@item.ReservationId" />
+                                                <select name="status" class="form-control"
+                                                        style="color: 
+                                                        @(item.ReservationStatus == "Onaylandı" ? "green" :
+                                                        item.ReservationStatus == "Beklemede" ? "orange" :
+                                                        item.ReservationStatus == "İptal edildi" ? "red" : "black");">
+                                                    <option value="Onaylandı" @(item.ReservationStatus == "Onaylandı" ? "selected" : "")>Onaylandı</option>
+                                                    <option value="Beklemede" @(item.ReservationStatus == "Beklemede" ? "selected" : "")>Beklemede</option>
+                                                    <option value="İptal edildi" @(item.ReservationStatus == "İptal edildi" ? "selected" : "")>İptal edildi</option>
+                                                </select>
+                                                <br />
+                                                <button type="submit" class="btn btn-primary btn-sm">Durumu Güncelle</button>
+                                            </form>
+                                        </td>
 
-
-                                        <td><a href="/Reservation/ReservationDelete/@item.ReservationId" class="btn btn-danger "> <i class="fa fa-close color-muted m-r-5"></i> Sil</a></td>
-                                        <td><a href="/Reservation/ReservationEdit/@item.ReservationId" class="btn btn-info gradient-2"> <i class="fa fa-edit color-muted m-r-5"></i>  Güncelle</a></td>
-
+                                        <td>
+                                            <a href="/Reservation/ReservationDelete/@item.ReservationId" class="btn btn-danger">
+                                                <i class="fa fa-close color-muted m-r-5"></i> Sil
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="/Reservation/ReservationEdit/@item.ReservationId" class="btn btn-info gradient-2">
+                                                <i class="fa fa-edit color-muted m-r-5"></i> Güncelle
+                                            </a>
+                                        </td>
                                     </tr>
                                 }
-
-
                             </tbody>
+
+
                         </table>
                         <a href="/Reservation/ReservationCreate" class="btn btn-info">Rezervasyon Ekle</a>
                     </div>

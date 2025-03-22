@@ -37,7 +37,7 @@
                             <input type="text" name="Email" value="@Model.Email" class="form-control" />
 
 
-                            <label>Resim</label>
+                          
                             @if (!string.IsNullOrEmpty(Model.ImageUrl))
                             {
                                 <div class="mt-2">
@@ -46,9 +46,11 @@
                                 </div>
                             }
                             <input type="text" name="ImageUrl" value="@Model.ImageUrl" class="form-control" />
+                            <br/>
 
                             <label>Resim Yükle </label>
                             <input type="file" name="ImageFile" value="@Model.ImageFile" class="form-control" />
+                            <br/>
 
                             <label>Şifre</label>
                             <input type="text" name="Password" class="form-control" />
@@ -58,6 +60,7 @@
                         </div>
 
                         <button type="submit" class="btn btn-dark gradient-2">Profili Kaydet</button>
+                        <button  href="/Profiles/ChangePassword" type="submit" class="btn btn-info gradient-3">Şifreyi Değiştir</button>
                     </form>
                 </div>
             </div>
