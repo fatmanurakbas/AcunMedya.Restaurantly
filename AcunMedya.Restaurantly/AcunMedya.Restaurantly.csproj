@@ -216,6 +216,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\ben.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -5227,6 +5228,7 @@
     <Content Include="Template\Restaurantly\assets\img\chefs\chefs-1.jpg" />
     <Content Include="Template\Restaurantly\assets\img\chefs\chefs-2.jpg" />
     <Content Include="Template\Restaurantly\assets\img\chefs\chefs-3.jpg" />
+    <Content Include="Template\Restaurantly\assets\img\chefs\chefs-4.jpg" />
     <Content Include="Template\Restaurantly\assets\img\chefs\EmineYıldız.jpg" />
     <Content Include="Template\Restaurantly\assets\img\chefs\EmineYıldız2.jpg" />
     <Content Include="Template\Restaurantly\assets\img\chefs\EmineYıldız3.jpg" />
@@ -5250,6 +5252,7 @@
     <Content Include="Template\Restaurantly\assets\img\hero-bg2.jpg" />
     <Content Include="Template\Restaurantly\assets\img\hero-bg3.jpg" />
     <Content Include="Template\Restaurantly\assets\img\menu\avokado.jpg" />
+    <Content Include="Template\Restaurantly\assets\img\menu\ayran.jpg" />
     <Content Include="Template\Restaurantly\assets\img\menu\baklava.jpg" />
     <Content Include="Template\Restaurantly\assets\img\menu\bonfile.jpg" />
     <Content Include="Template\Restaurantly\assets\img\menu\bread-barrel.jpg" />
@@ -5258,10 +5261,15 @@
     <Content Include="Template\Restaurantly\assets\img\menu\cake.jpg" />
     <Content Include="Template\Restaurantly\assets\img\menu\carpaccio.jpg" />
     <Content Include="Template\Restaurantly\assets\img\menu\cheesecake.jpg" />
+    <Content Include="Template\Restaurantly\assets\img\menu\cilekli_smoothie.jpg" />
     <Content Include="Template\Restaurantly\assets\img\menu\ezogelin.jpg" />
     <Content Include="Template\Restaurantly\assets\img\menu\greek-salad.jpg" />
+    <Content Include="Template\Restaurantly\assets\img\menu\kahve.jpg" />
+    <Content Include="Template\Restaurantly\assets\img\menu\limonata.jpg" />
+    <Content Include="Template\Restaurantly\assets\img\menu\limonata2.jpg" />
     <Content Include="Template\Restaurantly\assets\img\menu\lobster-bisque.jpg" />
     <Content Include="Template\Restaurantly\assets\img\menu\lobster-roll.jpg" />
+    <Content Include="Template\Restaurantly\assets\img\menu\mojito.jpg" />
     <Content Include="Template\Restaurantly\assets\img\menu\mozzarella.jpg" />
     <Content Include="Template\Restaurantly\assets\img\menu\ossobuco.jpg" />
     <Content Include="Template\Restaurantly\assets\img\menu\profiterol.jpg" />
@@ -5269,9 +5277,12 @@
     <Content Include="Template\Restaurantly\assets\img\menu\sezar.jpg" />
     <Content Include="Template\Restaurantly\assets\img\menu\sinitzel.jpg" />
     <Content Include="Template\Restaurantly\assets\img\menu\somon.jpg" />
+    <Content Include="Template\Restaurantly\assets\img\menu\specials-53.png" />
     <Content Include="Template\Restaurantly\assets\img\menu\spinach-salad.jpg" />
+    <Content Include="Template\Restaurantly\assets\img\menu\tavuk.jpg" />
     <Content Include="Template\Restaurantly\assets\img\menu\tuscan-grilled.jpg" />
     <Content Include="Template\Restaurantly\assets\img\menu\mercimek.jpg" />
+    <Content Include="Template\Restaurantly\assets\img\menu\yesil_cay.jpg" />
     <Content Include="Template\Restaurantly\assets\img\specials-1.png" />
     <Content Include="Template\Restaurantly\assets\img\specials-2.png" />
     <Content Include="Template\Restaurantly\assets\img\specials-3.png" />
@@ -5801,7 +5812,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="images\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

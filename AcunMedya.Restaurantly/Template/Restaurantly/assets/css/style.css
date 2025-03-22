@@ -1,4 +1,4 @@
-/**
+﻿/**
 * Template Name: Restaurantly - v3.1.0
 * Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
 * Author: BootstrapMade.com
@@ -1416,6 +1416,32 @@ section {
 .chefs .member:hover .social {
   bottom: 0;
   transition: bottom ease-in-out 0.4s;
+  .chef-img
+
+{
+    width: 100%; /* Görsellerin genişliğini kutuya tam oturtur */
+    max-width: 300px; /* Maksimum genişlik belirler */
+    height: auto; /* Oranlarını korur */
+    border-radius: 10px; /* Hafif yuvarlatılmış köşeler */
+    object-fit: cover; /* Görsellerin düzgün görünmesini sağlar */
+}
+
+.member {
+    padding: 15px; /* Çerçeve etkisini azaltır */
+    background: none; /* Gereksiz arka planı kaldırır */
+    border: none; /* Çerçeveyi tamamen kaldırır */
+}
+
+.member-info {
+    margin-top: 10px;
+}
+
+.social a {
+    margin: 5px;
+    color: #fff; /* Sosyal medya ikonlarını beyaz yap */
+    font-size: 18px;
+}
+
 }
 
 /*--------------------------------------------------------------
