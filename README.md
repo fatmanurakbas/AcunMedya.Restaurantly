@@ -21,13 +21,12 @@ Restaurantly, restoranların menülerini sergileyebileceği, hizmetlerini tanıt
 🍪 **Session & Cookie Yönetimi**
 - Kullanıcı tercihlerini ve oturumlarını yönetme
 
-💻 **Teknolojiler ve Araçlar**
-- C# & ASP.NET MVC - Web uygulaması geliştirme
-- Entity Framework (Code First) - Veritabanı modelleme
-- Microsoft SQL Server - Veritabanı yönetimi
-- HTML, CSS, Bootstrap - Şık ve duyarlı tasarım
-- JavaScript & jQuery - Dinamik bileşenler
-- LINQ - Veritabanı sorgulama
+## 🛠️Teknolojik Altyapı
+**⚙️ Backend Teknolojileri**
+- 🖥️ ASP.NET MVC – Model-View-Controller (MVC) mimarisi ile modüler ve ölçeklenebilir web uygulamaları geliştirme.
+- 📦 Entity Framework (Code First & Db First) – Veritabanı yönetimi için ORM (Object-Relational Mapping) kullanımı, hem mevcut veritabanı üzerinden model oluşturma (Db First) hem de koddan veritabanı oluşturma (Code First) desteği.
+- 🔄 CRUD İşlemleri – Veritabanında Create (Ekleme), Read (Okuma), Update (Güncelleme) ve Delete (Silme) işlemlerinin yönetilmesi.
+- 📊 LINQ (Language Integrated Query) – SQL sorgularını C# kodu içerisinde yazmayı sağlayan güçlü ve esnek sorgulama dili.
 
 ## 📸Projeye Genel Bakış
 
@@ -78,43 +77,43 @@ Restaurantly, restoranların menülerini sergileyebileceği, hizmetlerini tanıt
 
 ## 👤Admin Paneli
 
-- Giriş
+- 🔑Giriş
  
 ![Giriş](https://github.com/user-attachments/assets/05268b1e-216b-44ef-a8f2-6fc91359c102)
 
-- Profil
+- 🧑‍💼Profil
 
 ![Profil](https://github.com/user-attachments/assets/76822c8b-b2bc-4a04-96b5-663294ab4bd8)
 
-- 404 Hatası
+- ❌404 Hatası
 
 ![404Hatası](https://github.com/user-attachments/assets/4c9052f1-42cd-4c5b-b9dd-b03c51fe2753)
 
-- Kontrol Paneli
-- 
+- 🖥️Kontrol Paneli
+
 ![Kontrol Paneli](https://github.com/user-attachments/assets/1d24965d-e6c6-434e-9bb9-40987f4b0afb)
 
--Şifre Güncelleme
+- 🔐Şifre Güncelleme
 
 ![Şifreyi Güncelleme](https://github.com/user-attachments/assets/b6e26e37-e646-410f-a21d-5cdc51b6d3de)
 
-- Kategori Listesi
-- 
+- 📂Kategori Listesi
+
 ![Kategoriler](https://github.com/user-attachments/assets/5955abe5-9ccb-4898-99f9-701ba12a7982)
 
-- Şef Listesi
+- 👨‍🍳Şef Listesi
 
 ![Şef Listesi](https://github.com/user-attachments/assets/3b824d30-22f8-4037-8232-d5a894a8140d)
 
-- Şef Bilgileri Güncelleme 
+- ✏️Şef Bilgileri Güncelleme 
 
 ![Şef Bilgileri Güncelleme](https://github.com/user-attachments/assets/3463b86b-1138-419e-b790-ab0fe87a3f8f)
 
-- Yeni Şef Ekleme
+- ➕Yeni Şef Ekleme
 
 ![Yeni Şef Ekleme](https://github.com/user-attachments/assets/4f84c715-5495-4268-935a-ca1bd200592e)
 
-- Rezervasyon Listesi
+- ✉️Rezervasyon Listesi
 
 ![Rezervasyon Listesi](https://github.com/user-attachments/assets/bb98b635-94f5-4e55-83a4-c50c4f131b1b)
 
@@ -122,7 +121,7 @@ Restaurantly, restoranların menülerini sergileyebileceği, hizmetlerini tanıt
 Bu proje Visual Studio 2022 ile geliştirilmiştir. Güncellemeler ve sürüm geçmişi için repository’yi takip edebilirsiniz.
 
 ## 📞Destek
-Bu projeyle ilgili herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen fatmanurakb1616@gmail.con üzerinden iletişime geçin.
+Bu projeyle ilgili herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen fatmanurakb1616@gmail.com üzerinden iletişime geçin.
 
 ## 🎉Teşekkür
 Bu projeyi geliştirirken sağladıkları değerli bilgi, rehberlik ve destekleri için Buse Nur Demirbaş ve Murat Yücedağ’a çok teşekkür ederim. 
