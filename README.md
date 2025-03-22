@@ -47,7 +47,7 @@ Restaurantly, restoranların menülerini sergileyebileceği, hizmetlerini tanıt
 ![Menü](https://github.com/user-attachments/assets/fb9f32fb-627e-498e-baf8-5c8a7166064a)
 ![Menü2](https://github.com/user-attachments/assets/2fe07607-a207-4e10-b618-c89ff6f222c2)
 
-**⭐Spesiyaller**
+**🥗Spesiyaller**
 
 ![Spesiyaller](https://github.com/user-attachments/assets/07a51600-2cda-4d46-b6e5-38d8ea4d76c6)
 
@@ -71,7 +71,7 @@ Restaurantly, restoranların menülerini sergileyebileceği, hizmetlerini tanıt
 
 ![Şefler](https://github.com/user-attachments/assets/9dafe59a-32db-4591-b2ad-391c545426b5)
 
-**📞İletişim**
+**💬İletişim**
 
 ![İletişim](https://github.com/user-attachments/assets/066e0474-a6e5-4f92-9889-bed57cf18745)
 ![İletişim2](https://github.com/user-attachments/assets/d6ad756c-2680-479a-bfa1-cd03002d8300)
@@ -84,35 +84,49 @@ Restaurantly, restoranların menülerini sergileyebileceği, hizmetlerini tanıt
 
 - Profil
 
-![Profil](https://github.com/user-attachments/assets/c39359ad-0dff-41e9-b4e1-0e1ffe26ad04)
+![Profil](https://github.com/user-attachments/assets/76822c8b-b2bc-4a04-96b5-663294ab4bd8)
 
--404 Hatası
+- 404 Hatası
 
 ![404Hatası](https://github.com/user-attachments/assets/4c9052f1-42cd-4c5b-b9dd-b03c51fe2753)
 
+- Kontrol Paneli
+- 
+![Kontrol Paneli](https://github.com/user-attachments/assets/1d24965d-e6c6-434e-9bb9-40987f4b0afb)
+
 -Şifre Güncelleme
+
 ![Şifreyi Güncelleme](https://github.com/user-attachments/assets/b6e26e37-e646-410f-a21d-5cdc51b6d3de)
 
--Kategori Listesi
+- Kategori Listesi
+- 
 ![Kategoriler](https://github.com/user-attachments/assets/5955abe5-9ccb-4898-99f9-701ba12a7982)
 
--Şef Listesi
+- Şef Listesi
 
 ![Şef Listesi](https://github.com/user-attachments/assets/3b824d30-22f8-4037-8232-d5a894a8140d)
 
--Şef Bilgileri Güncelleme 
+- Şef Bilgileri Güncelleme 
 
 ![Şef Bilgileri Güncelleme](https://github.com/user-attachments/assets/3463b86b-1138-419e-b790-ab0fe87a3f8f)
 
--Yeni Şef Ekleme
+- Yeni Şef Ekleme
 
 ![Yeni Şef Ekleme](https://github.com/user-attachments/assets/4f84c715-5495-4268-935a-ca1bd200592e)
 
+- Rezervasyon Listesi
 
+![Rezervasyon Listesi](https://github.com/user-attachments/assets/bb98b635-94f5-4e55-83a4-c50c4f131b1b)
 
+## 📜Sürüm Geçmişi
+Bu proje Visual Studio 2022 ile geliştirilmiştir. Güncellemeler ve sürüm geçmişi için repository’yi takip edebilirsiniz.
 
+## 📞Destek
+Bu projeyle ilgili herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen fatmanurakb1616@gmail.con üzerinden iletişime geçin.
 
-
+## 🎉Teşekkür
+Bu projeyi geliştirirken sağladıkları değerli bilgi, rehberlik ve destekleri için Buse Nur Demirbaş ve Murat Yücedağ’a çok teşekkür ederim. 
+Ayrıca, projeye emeği geçen tüm ekip arkadaşlarıma ve geri bildirimleriyle süreci iyileştiren herkese teşekkür ederim. Gelecekte birlikte daha birçok başarılı projeye imza atmayı diliyorum. 🚀🙏
 
 
 
