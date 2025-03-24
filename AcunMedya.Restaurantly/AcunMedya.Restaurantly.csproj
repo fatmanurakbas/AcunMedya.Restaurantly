@@ -5225,15 +5225,11 @@
     <Content Include="Template\Restaurantly\assets\img\about-bg2.jpg" />
     <Content Include="Template\Restaurantly\assets\img\about.jpg" />
     <Content Include="Template\Restaurantly\assets\img\apple-touch-icon.png" />
-    <Content Include="Template\Restaurantly\assets\img\chefs\chefs-1.jpg" />
     <Content Include="Template\Restaurantly\assets\img\chefs\chefs-2.jpg" />
-    <Content Include="Template\Restaurantly\assets\img\chefs\chefs-3.jpg" />
     <Content Include="Template\Restaurantly\assets\img\chefs\chefs-4.jpg" />
     <Content Include="Template\Restaurantly\assets\img\chefs\EmineYıldız.jpg" />
     <Content Include="Template\Restaurantly\assets\img\chefs\EmineYıldız2.jpg" />
-    <Content Include="Template\Restaurantly\assets\img\chefs\EmineYıldız3.jpg" />
     <Content Include="Template\Restaurantly\assets\img\chefs\MuratTas.jpg" />
-    <Content Include="Template\Restaurantly\assets\img\chefs\SeymaDemir.jpg" />
     <Content Include="Template\Restaurantly\assets\img\djparty.jpg" />
     <Content Include="Template\Restaurantly\assets\img\event-birthday.jpg" />
     <Content Include="Template\Restaurantly\assets\img\event-custom.jpg" />
