@@ -53,6 +53,7 @@ Restaurantly, restoranların menülerini sergileyebileceği, hizmetlerini tanıt
 ## 📸Projeye Genel Bakış
 
 **🏠Restoran Ana Sayfası**
+
 ![Anasayfa](https://github.com/user-attachments/assets/a9a2982d-6c4c-450a-9b90-6fd279c1e766)
 
 **ℹ️Restoran Hakkında**
@@ -103,7 +104,7 @@ Restaurantly, restoranların menülerini sergileyebileceği, hizmetlerini tanıt
  
 ![Giriş](https://github.com/user-attachments/assets/05268b1e-216b-44ef-a8f2-6fc91359c102)
 
-- 🧑‍💼Profil
+- 👩‍💼Profil
 
 ![Profil](https://github.com/user-attachments/assets/76822c8b-b2bc-4a04-96b5-663294ab4bd8)
 
